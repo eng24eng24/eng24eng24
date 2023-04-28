@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Engineer</title>
+    <link rel="stylesheet" href="test1.css">
+    <script src="https://use.fontawesome.com/5e47792b90.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="brand">The Engineer</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <section class="section-main">
+        <h1 style="background-color: whitesmoke; motion-rotation: 20;" ></h1>
+    </section>
+    <div id="boxes">
+        <div id="container"></div>
+        <div id="container"></div>
+        <div id="container"></div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f fa-3x" ></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <center>
+            <span class="credit">Created By <a href="https://youtube.com">YAHYA</a> | </span>
+            <i class="fa fa-copyright" aria-hidden="true"></i><span> 2022 All rights reserved.</span>
+        </center>
+    </div>
+
+    <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        //javascript for responsive navigation sidebar menu
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+
+        menuBtn.addEventListener("click", () => {
+            menu.classList.add('active');
+        });
+
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove('active');
+        });
+    </script>
+
+</body>
+
+</html>

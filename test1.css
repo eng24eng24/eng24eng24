@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.section-main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(AB81673E.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.section-main h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    transition: 0.6s;
+}
+
+header.sticky {
+    background: gray;
+    padding: 15px 100px;
+    border-bottom: 4px black solid;
+}
+
+header .brand {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: color, background;
+}
+
+header .menu a:hover {
+    color: #000;
+    background: #fff;
+}
+
+header .btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*boxes****************************************/
+
+#boxes {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+#container {
+    width: 30%;
+    height: 400px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+
+/*social media****************************************/
+
+.media-icons {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    color: rgb(52, 63, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.socimedia-iconsal a {
+    padding: 15px 15px;
+    cursor: pointer;
+    display: flex;
+}
+
+.media-icons a i {
+    height: 40px;
+    width: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 30px 50px 30px;
+    transition: 0.3s;
+    color: black;
+    font-size: x-large;
+}
+
+.media-icons a i:hover {
+    background: whitesmoke;
+    color: #1483D5;
+    opacity: 2;
+}
+
+
+/*powered by************************************************/
+
+.bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: white;
+    color: black;
+    bottom: 0;
+    border-top: black solid;
+}
+
+.bottom center span {
+    color: black;
+}
+
+.bottom center a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.bottom center a:hover {
+    text-decoration: underline;
+}
+
+
+/*media scroll********************************************/
+
+@media (max-width: 1060px) {
+    header .btn {
+        display: block;
+    }
+    header .menu {
+        position: fixed;
+        background: gray;
+        flex-direction: column;
+        min-width: 300px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+    }
+    header .menu.active {
+        right: 0;
+    }
+    header .menu .close-btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 25px;
+    }
+    header .menu a {
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+    header .brand {
+        margin-right: 40px;
+    }
+    .section-main h1 {
+        color: #1483D5;
+    }
+}
+
+@media (max-width: 630px) {
+    .section-main h1 {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: black;
+        opacity: 0.5;
+    }
+    #container {
+        width: 85%;
+        height: 350px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    #boxes {
+        padding-top: 50px;
+    }
+    .media-icons a i {
+        margin: 30px 20px 50px 20px;
+    }
+}
