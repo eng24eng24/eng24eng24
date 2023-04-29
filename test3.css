@@ -1,0 +1,159 @@
+.top {
+  background-color: #0f0f0f;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#logo{ 
+  height: 100%;
+  width: 200PX;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  justify-items: center;
+  background-color: rgb(70, 71, 71);
+  color: white;
+  margin-left: 50px;
+}
+.app {
+  background-color: rgb(7, 7, 7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#k{
+  width: 33%;
+  height: 330px;
+  background-color: aqua;
+  margin: 20px;
+  padding: 20px;
+}
+.app2{
+background-color: rgb(255, 255, 255);
+margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#e1{
+  width: 33%;
+  height: 300px;
+  margin: auto;
+  padding: auto;
+  background-color: black;
+
+}
+#e11{
+  width: 100%;
+  height: 30px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e12{
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e13{
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 0;
+  padding: auto;
+}
+
+
+#e2{
+  width: 33%;
+  height: 300px;
+  margin: auto;
+  padding: auto;
+  background-color: black;
+}
+#e21{
+  width: 100%;
+  height: 30px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e22{
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e23{
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 0;
+  padding: auto;
+}
+#e3{
+  width: 33%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 0;
+  padding: auto;
+  background-color: black;
+}
+#e31{
+  width: 100%;
+  height: 30px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e32{
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: auto;
+}
+#e33{
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  margin: auto;
+  margin-bottom: 0;
+  padding: auto;
+}
+#e4{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  
+}
+#side{
+  height: 100%;
+  width: 100PX;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  justify-items: center;
+  background-color: rgb(70, 71, 71);
+  color: white;
+  margin-left: 0px;
+  padding: 0;
+}
